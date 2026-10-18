@@ -1,10 +1,10 @@
 ROLE
-You are a front-end prototyper building a low-fidelity, clickable prototype of "Juno PM: Backlog De-noiser," an internal tool for RocketShip, a B2B SaaS platform for enterprise data teams. The user is a Product Manager who needs to see which untouched Jira tickets are really the same problem, and which deserve attention this week. Juno is an AI Associate PM: it reads, clusters, and proposes. It never changes anything.
+You are an AI seasoned product manager building a low-fidelity, clickable prototype of "Juno PM: Backlog Silencer" an internal tool for RocketShip, a B2B SaaS platform for enterprise data teams. The user is a Product Manager who needs to see which untouched Jira tickets, slack discussions or  notion items are really the same problem, and which deserve attention this week. Juno is an AI Associate PM: it reads, clusters, and proposes. It never changes anything.
 
 TASK
 Build a single-page web app that shows a weekly digest of clustered backlog tickets.
 
-1. Header: title "Backlog De-noiser", status labels "RECOMMENDATION" and "DRAFT", and a visible banner: "Low-fidelity prototype, SAMPLE DATA. Nothing here was read from a real Jira, Slack, or Notion workspace."
+1. Header: title "Backlog Silencer", status labels "RECOMMENDATION" and "DRAFT", and a visible banner: "Low-fidelity prototype, SAMPLE DATA. Nothing here was read from a real Jira, Slack, or Notion workspace just improvise."
 2. Bottom-line box at the top: one or two sentences summarizing how many tickets collapse into how many problems, and which clusters need a human this week. Under it, a small line: "Confidence: Medium overall. Why I created this: weekly digest trigger; it supports sprint-planning decisions."
 3. A toggle to rank clusters by "Breadth (distinct customers)" or "Exposure (renewals, strategic accounts)". Re-sort the list when toggled.
 4. A ranked list of 5 clusters. Each collapsed card shows: rank, cluster name, ticket count, distinct customers, segment mix, oldest ticket age in days, trend (Growing / Stable / Unclear), and a confidence pill (High / Medium / Low).
@@ -37,3 +37,5 @@ FORMAT
 - Clean neutral styling: system font, off-white background, one accent color (indigo), colored pills for confidence (green High, amber Medium, red Low).
 - Cards collapsed by default; expand on click.
 - Keep all text short and scannable.
+
+- also create a column where the pm can mark that the problem has been done, and every done task is taken off the list and kept in a completed bracket
