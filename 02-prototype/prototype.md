@@ -1,9 +1,11 @@
 https://lovable.dev/projects/2ee18be7-ca3f-4002-bf71-9734b6e6a366
 
 ROLE
+
 You are an AI seasoned product manager building a low-fidelity, clickable prototype of "Juno PM: Backlog Silencer" an internal tool for RocketShip, a B2B SaaS platform for enterprise data teams. The user is a Product Manager who needs to see which untouched Jira tickets, slack discussions or  notion items are really the same problem, and which deserve attention this week. Juno is an AI Associate PM: it reads, clusters, and proposes. It never changes anything.
 
 TASK
+
 Build a single-page web app that shows a weekly digest of clustered backlog tickets.
 
 1. Header: title "Backlog Silencer", status labels "RECOMMENDATION" and "DRAFT", and a visible banner: "Low-fidelity prototype, SAMPLE DATA. Nothing here was read from a real Jira, Slack, or Notion workspace just improvise."
